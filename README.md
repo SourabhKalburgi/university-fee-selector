@@ -41,7 +41,6 @@ university-fee-selector/
   * Levels → *UG, PG, DIPLOMA, Ph.D*
 * Fee amount is shown after all four selections.
 * “Clear Selection” resets all dropdowns to the initial state.
-* Hidden characters in JSON keys are cleaned before matching.
 
 ---
 
