@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Fee Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>University Fee Selection</h1>
+
+    <div class="form-group">
+      <label for="feeType">Select Fee Type:</label>
+      <select id="feeType">
+        <option value="">-- Select Fee Type --</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="nationality">Select Nationality:</label>
+      <select id="nationality" disabled>
+        <option value="">-- Select Nationality --</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="course">Select Course:</label>
+      <select id="course" disabled>
+        <option value="">-- Select Course --</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="level">Select Level:</label>
+      <select id="level" disabled>
+        <option value="">-- Select Level --</option>
+      </select>
+    </div>
+
+    <button id="showFee" disabled>Show Fee</button>
+    <button id="clearSelection" class="secondary-btn">Reset</button>
+
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
