@@ -6,7 +6,7 @@ A minimal web app to determine the university fee amount based on a given JSON s
 
 ## How to Run
 1. Clone the repository:
-   git clone https://github.com/<your-username>/university-fee-selector.git
+   git clone https://github.com/SourabhKalburgi/university-fee-selector.git
    cd university-fee-selector
 
 2. Open `index.html` in any browser.
